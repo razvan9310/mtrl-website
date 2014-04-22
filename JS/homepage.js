@@ -7,6 +7,7 @@ $(document).ready(function() {
         prevtext: '<',
         responsive: true,
         randomstart: true,
+        usecaptions: false,
         width: 1000
     });
 });
