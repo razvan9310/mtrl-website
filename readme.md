@@ -1,0 +1,2 @@
+- Pull the project and open index.html in your browser
+- Have fun!
