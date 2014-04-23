@@ -20,18 +20,19 @@ ul.bjqs-controls {
 }
 
 ul.bjqs-controls.v-centered li a {
-    background: #000;
-	color: #cba500;
+    background: transparent;
+	color: #5d5d5d;
 	display: block;
-    font-size: 32px;
-	padding: 10px;
+    font-size: 48px;
+	padding-left: 5px;
+    padding-right: 5px;
     position: absolute;
 	text-decoration: none;
 }
 
 ul.bjqs-controls.v-centered li a:hover {
-	background: #cba500;
-	color :#000;
+	background: #5d5d5d;
+    color: #c6c6c6
 }
 
 ul.bjqs-controls.v-centered li.bjqs-next a {
@@ -58,10 +59,10 @@ ol.bjqs-markers li {
 }
 
 ol.bjqs-markers li a {
-    background: #000;
-    border: 1px solid #937800;
+    background: #5d5d5d;
+    border: 1px solid #5d5d5d;
     border-radius: 50%;
-	color: #000;
+	color: #5d5d5d;
     display: inline-block;
     font-size: 8px;
     height: 10px;
@@ -72,7 +73,7 @@ ol.bjqs-markers li a {
 
 ol.bjqs-markers li.active-marker a,
 ol.bjqs-markers li a:hover {
-	background: #cba500;
-    border: 1px solid #cba500;
-    color: #cba500;
+    background: #c6c6c6;
+    color: #c6c6c6;
+    border: 1px solid #c6c6c6;
 }

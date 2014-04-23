@@ -3,11 +3,17 @@ body {
     background: -o-linear-gradient(top, #101010, #313131);
     background: -moz-linear-gradient(top, #101010, #313131);
     background: -ms-linear-gradient(top, #101010, #313131);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .central {
     background: black;
-    height: 978px;
+    height: 1000px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -86,4 +92,49 @@ nav ul ul li a {
 	background: -moz-linear-gradient(top, #222 0%, #000 100%); 
 	background: -webkit-linear-gradient(top, #222 0%, #000 100%);
     width: 161px;
+}
+
+article {
+    color: #fff;
+    font-family: sans-serif;
+    margin: auto;
+    margin-top: 50px;
+    text-align: justify;
+    width: 800px;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+article h1 {
+    color: #ffcf00;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 36px;
+}
+
+article p {
+    margin-top: 20px;
+}
+
+footer {
+    color: #848484;
+    font-size: 12px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 1000px;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+footer > section {
+    margin-bottom: 10px;
 }
