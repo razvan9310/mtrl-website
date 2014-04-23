@@ -3,6 +3,7 @@ $(document).ready(function() {
         animtype: "slide",
         animspeed: 5000,
         height: 198,
+        hoverpause: false,
         nexttext: '>',
         prevtext: '<',
         responsive: true,

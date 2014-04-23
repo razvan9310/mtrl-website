@@ -59,8 +59,8 @@ nav ul li a {
 	box-shadow: 0px 0px 9px #cba500;
     color: #cba500;
     display: block;
-    font-family: sans-serif;
-    font-size: 22px;
+    font-family: helvetica, sans-serif;
+    font-size: 22px;    
     padding: 10px 0 10px 0;
     text-align: center;
     text-decoration: none;
@@ -98,7 +98,8 @@ nav ul ul li a {
 
 article {
     color: #fff;
-    font-family: sans-serif;
+    font-family: helvetica, sans-serif;
+    line-height: 20px;
     margin: auto;
     margin-top: 50px;
     text-align: justify;
@@ -120,10 +121,23 @@ article h1 {
     color: #ffcf00;
     font-family: Impact, Charcoal, sans-serif;
     font-size: 36px;
+    top: 5px;
 }
 
-article p, article ul {
+article ul {
+    margin-top: 25px;
+}
+
+article p {
     margin-top: 20px;
+}
+
+article h6 {
+    font-style: italic;
+}
+
+article h6:nth-child(2) {
+    margin-top: 10px;
 }
 
 article img {
@@ -159,11 +173,20 @@ footer a:hover {
     text-decoration: underline;
 }
 
-section.player{
-    margin-bottom: 100px;
+article section {
+    margin-bottom: 50px;
+}
+
+section.player {
+    margin-bottom: 80px;
 }
 
 section.player h1, section.player ul, section.player p {
     position: relative;
     left: 30px;
+}
+
+p.question {
+    color: #ffcf00;
+    font-style: italic;
 }
