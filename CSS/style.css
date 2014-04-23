@@ -13,9 +13,11 @@ body {
 
 .central {
     background: black;
-    height: 1000px;
+    height: 100%;
+    min-height: 1000px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 30px;
     position: relative;
     width: 1000px;
 }
@@ -30,7 +32,7 @@ body {
     top: 35px;
 }
 
-#navigation {
+nav {
     margin-top: 90px;
     margin-left: 11px;
 }
@@ -109,14 +111,23 @@ article {
     user-select: text;
 }
 
+article a {
+    text-decoration: none;
+    color: #ffcf00;
+}
+
 article h1 {
     color: #ffcf00;
     font-family: Impact, Charcoal, sans-serif;
     font-size: 36px;
 }
 
-article p {
+article p, article ul {
     margin-top: 20px;
+}
+
+article img {
+    float: left;
 }
 
 footer {
@@ -137,4 +148,22 @@ footer {
 
 footer > section {
     margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #848484;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+section.player{
+    margin-bottom: 100px;
+}
+
+section.player h1, section.player ul, section.player p {
+    position: relative;
+    left: 30px;
 }
