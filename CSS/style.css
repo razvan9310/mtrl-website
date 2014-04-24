@@ -117,6 +117,10 @@ article a {
     color: #ffcf00;
 }
 
+article a:hover {
+    text-decoration: underline;
+}
+
 article h1 {
     color: #ffcf00;
     font-family: Impact, Charcoal, sans-serif;
@@ -189,4 +193,8 @@ section.player h1, section.player ul, section.player p {
 p.question {
     color: #ffcf00;
     font-style: italic;
+}
+
+#youtube-player {
+    margin-top: 10px;
 }
