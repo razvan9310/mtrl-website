@@ -22,6 +22,11 @@ body {
     width: 1000px;
 }
 
+#team-logo {
+    position: absolute;
+    top: 5px;
+}
+
 #languages {
     position: absolute;
     right: 0px;
@@ -29,7 +34,7 @@ body {
 }
 
 #banner-slide {
-    top: 35px;
+    top: 40px;
 }
 
 nav {
@@ -189,6 +194,14 @@ section.player h1, section.player ul, section.player p {
     position: relative;
     left: 30px;
 }
+
+/*
+section.player img:hover {
+    -ms-transform: scale(1.1, 1,1);
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+*/
 
 p.question {
     color: #ffcf00;
